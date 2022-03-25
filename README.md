@@ -1,6 +1,8 @@
 # DCS BIOS API
 
-DCS BIOS API is a library that converts the binary export format from [DCS BIOS](https://github.com/dcs-bios/dcs-bios) into JavaScript objects.
+Updated with DCSFlightpanels fork of DCS Bios master branch at commit [https://github.com/DCSFlightpanels/dcs-bios/commit/8650d1a775507fe0d24797c3b7e52cb0039fcf1d]
+
+DCS BIOS API is a library that converts the binary export format from [DCS BIOS](https://github.com/DCSFlightpanels/dcs-bios) into JavaScript objects.
 
 ```js
 const DcsBiosApi = require('dcs-bios-api');
@@ -25,8 +27,5 @@ api.sendMessage('WEAPONS_MASTER_ARM 1').then(() => {
 ```
 
 ## Controls Browser
+
 To see a list of controls that DCS BIOS can interact with, checkout the controls browser here: https://danieltian.github.io/dcs-bios-api. Some controls are not available in DCS BIOS. For example, closing the cockpit door is not, and neither are the throttle levers on the Ka-50.
-
-## API
-
-More in-depth guide is WIP, but you can take a look at the jsdoc here: https://doclets.io/danieltian/dcs-bios-api/master
